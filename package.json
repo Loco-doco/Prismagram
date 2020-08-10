@@ -1,0 +1,19 @@
+{
+  "name": "Prismagram",
+  "version": "1.0.0",
+  "description": "Instagram clone with Express, prisma, react",
+  "repository": "https://github.com/Loco-doco/Prismagram.git",
+  "author": "Loco-doco <55223051+Loco-doco@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
