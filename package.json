@@ -21,6 +21,7 @@
     "morgan": "^1.10.0"
   },
   "scripts": {
+    "deploy": "prisma1 deploy",
     "dev": "nodemon --exec babel-node src/server.js"
   }
 }
