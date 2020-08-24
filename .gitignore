@@ -102,5 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
-
+.next
 generated
+prisma.yml
